@@ -22,8 +22,11 @@ Once VScode and GIT is set up, you need your CSE 15L account credentials in orde
 Upon recieving the details, reset your password using the specifications they have listed. AFter you have reset your password, wait for a few minutes for it to start working.
 
 
-Step #4: Using the terminal in VScode. 
+## Step #4: Using the terminal in VScode. 
 Open the newly installed Visual Studio code application on your computer. Upon opening the application, you should be able to see a window similar to this one.
+
+![VScode tutorial part 2](https://user-images.githubusercontent.com/116845419/212208735-be72fdce-1541-41d8-8704-c943a9565a9d.png)
+
 
 ## Step #5: Remotely connecting to the remote server
 
