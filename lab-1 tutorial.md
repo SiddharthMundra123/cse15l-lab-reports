@@ -19,16 +19,26 @@ Once VScode and GIT is set up, you need your CSE 15L account credentials in orde
 
 ![password reset tutorial](https://user-images.githubusercontent.com/116845419/212208184-52535399-9d3f-480e-85c4-3048248901bd.png)
 
-Upon recieving the details, reset your password using the specifications they have listed. AFter you have reset your password, wait for a few minutes for it to start working.
+Upon recieving the details, reset your password using the specifications they have listed. AFter you have reset your password, wait for a few minutes for it to start working. ALso, note down the custom ID which is displayed in a grey box after you enter your UCSD credentials.
 
 
-## Step #4: Using the terminal in VScode. 
+## Step #4: Using the terminal in VScode
 Open the newly installed Visual Studio code application on your computer. Upon opening the application, you should be able to see a window similar to this one.
 
-![VScode tutorial part 2](https://user-images.githubusercontent.com/116845419/212208735-be72fdce-1541-41d8-8704-c943a9565a9d.png)
+![vsciode tutorial](https://user-images.githubusercontent.com/116845419/212236950-ac57405e-fab2-4409-be42-dfdbf0b7e4b4.jpg)
 
 
 ## Step #5: Remotely connecting to the remote server
 
+To connect to the server, you have to first open the terminal in VScode. After doing that, type in the following commmand : $ ssh cs15lwi23zz@ieng6.ucsd.edu
+However, replace the zz with the specific charecters on your custom ID which you had noted down before. After entering the command, you will be prompted to enter a (yes/no) answer. Enter yes, and then it will ask you to enter a password as shown in the picture below:
+
+
+![image](https://user-images.githubusercontent.com/116845419/212237985-2eecf5fb-4486-4e12-877c-36847574688d.png)
+
+
+
+Enter the UCSD password you had just created in step #2, and then you will be connected to the UCSD Basement computer! Any commands you run now will also run on that computer! 
 
 ## Step #6: Trying out some commands
+We will now try out some commands in order to test the computer's terminal. 
