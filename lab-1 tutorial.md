@@ -41,4 +41,12 @@ However, replace the zz with the specific charecters on your custom ID which you
 Enter the UCSD password you had just created in step #2, and then you will be connected to the UCSD Basement computer! Any commands you run now will also run on that computer! 
 
 ## Step #6: Trying out some commands
-We will now try out some commands in order to test the computer's terminal. 
+We will now try out some commands in order to test the computer's terminal. Below are some commands you can try!
+* cd ~
+* cd
+* ls -lat
+* ls -a
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+To log out of the remote server, you can either run the command "exit" or just press CTRL + D. You can also open multiple terminals in VScode!
+
