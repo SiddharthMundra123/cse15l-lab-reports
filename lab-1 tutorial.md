@@ -56,5 +56,5 @@ Below is the screenshot of some of the above commands used in the VSCode termina
 
 
 ---
-To log out of the remote server, you can either run the command "exit" or just press CTRL + D. You can also open multiple terminals in VScode!
+To log out of the remote server, you can either run the command "exit" or just press CTRL + D. You can also open multiple terminals in VScode! This is the end of the turotial, thank you so much for your time!
 
