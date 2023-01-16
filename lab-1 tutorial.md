@@ -48,6 +48,13 @@ We will now try out some commands in order to test the computer's terminal. Belo
 * ls -a
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 * cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+
+Below is the screenshot of some of the above commands used in the VSCode terminal:
+
+![running siome commabnds](https://user-images.githubusercontent.com/116845419/212768196-aec74ff0-d609-4169-b701-bea9dcf74a06.png)
+
+
+
 ---
 To log out of the remote server, you can either run the command "exit" or just press CTRL + D. You can also open multiple terminals in VScode!
 
