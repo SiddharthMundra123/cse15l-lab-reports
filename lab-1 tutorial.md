@@ -1,4 +1,4 @@
-# Welcome to the CSE 15L Tutorial!
+# Lap Report 1
 
 In this file, you will learn how to install VScode, get your CSE 15L account details as well as connect to a local computer. 
 
