@@ -42,12 +42,12 @@ Enter the UCSD password you had just created in step #2, and then you will be co
 
 ## Step #6: Trying out some commands
 We will now try out some commands in order to test the computer's terminal. Below are some commands you can try!
-* cd ~
-* cd
-* ls -lat
-* ls -a
-* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+* cd : This command is used to change the current working directory
+* ls -lat 
+* ls -a : This command is used to list all files including hidden files as well.
+* mkdir : This stands for make directory. This command is used for creating new directories.
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt : cat is short for concatenate. This command displays the contents of a file
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ : cp stands for copy. It is used to copy the contents of a file
 
 Below is the screenshot of some of the above commands used in the VSCode terminal:
 
