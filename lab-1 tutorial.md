@@ -42,18 +42,21 @@ Enter the UCSD password you had just created in step #2, and then you will be co
 
 ## Step #6: Trying out some commands
 We will now try out some commands in order to test the computer's terminal. Below are some commands you can try!
-* cd : This command is used to change the current working directory
-* ls -lat 
-* ls -a : This command is used to list all files including hidden files as well.
-* mkdir : This stands for make directory. This command is used for creating new directories.
-* cat /home/linux/ieng6/cs15lwi23/public/hello.txt : cat is short for concatenate. This command displays the contents of a file
-* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ : cp stands for copy. It is used to copy the contents of a file
+* _cd_ : This command is used to change the current working directory
+* _ls -lat_ : This commmand is used to display all the files in the user's profile
 
-Below is the screenshot of some of the above commands used in the VSCode terminal:
+![ls -lat](https://user-images.githubusercontent.com/116845419/214956303-f9e4874f-c0f2-4ce3-9416-d90695c62ad3.png)
 
-![running siome commabnds](https://user-images.githubusercontent.com/116845419/212768196-aec74ff0-d609-4169-b701-bea9dcf74a06.png)
+* _ls -a_ : This command is used to list all files including hidden files as well.
 
+![ls -a](https://user-images.githubusercontent.com/116845419/214956270-b5e64ede-9b93-4382-bfb9-9937e573dadb.png)
 
+* _mkdir_ : This stands for make directory. This command is used for creating new directories.
+* _cat /home/linux/ieng6/cs15lwi23/public/hello.txt_ : cat is short for concatenate. This command displays the contents of a file
+
+ ![cat](https://user-images.githubusercontent.com/116845419/214956321-847ab68d-170e-4f7e-8c34-b7431ff0696d.png)
+ 
+* _cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/_ : cp stands for copy. It is used to copy the contents of a file
 
 ---
 To log out of the remote server, you can either run the command "exit" or just press CTRL + D. You can also open multiple terminals in VScode! This is the end of the turotial, thank you so much for your time!
