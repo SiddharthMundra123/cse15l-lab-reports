@@ -31,14 +31,22 @@ Open the newly installed Visual Studio code application on your computer. Upon o
 ## Step #5: Remotely connecting to the remote server
 
 To connect to the server, you have to first open the terminal in VScode. After doing that, type in the following commmand : $ ssh cs15lwi23zz@ieng6.ucsd.edu
-However, replace the zz with the specific charecters on your custom ID which you had noted down before. After entering the command, you will be prompted to enter a (yes/no) answer. Enter yes, and then it will ask you to enter a password as shown in the picture below:
+However, replace the zz with the specific charecters on your custom ID which you had noted down before. This is shown in the picture below:
+
+![image](https://user-images.githubusercontent.com/116845419/214959737-4594ea6a-4908-4e71-ac2b-f9fede2a2045.png)
+
+
+After entering the command, you will be prompted to enter a (yes/no) answer. Enter yes, and then it will ask you to enter a password as shown in the picture below:
 
 
 ![image](https://user-images.githubusercontent.com/116845419/212237985-2eecf5fb-4486-4e12-877c-36847574688d.png)
 
 
 
-Enter the UCSD password you had just created in step #2, and then you will be connected to the UCSD Basement computer! Any commands you run now will also run on that computer! 
+Enter the UCSD password you had just created in step #2, and then you will be connected to the UCSD Basement computer! Any commands you run now will also run on that computer! The screenshot of the whole process is shown below:
+
+![image](https://user-images.githubusercontent.com/116845419/214959865-b4aa0045-78b2-4fe0-b83a-6f5fb51e3712.png)
+
 
 ## Step #6: Trying out some commands
 We will now try out some commands in order to test the computer's terminal. Below are some commands you can try!
