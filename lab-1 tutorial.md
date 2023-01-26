@@ -66,6 +66,8 @@ We will now try out some commands in order to test the computer's terminal. Belo
  
 * _cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/_ : cp stands for copy. It is used to copy the contents of a file
 
+You can yourself try many other commands here to learn!
+
 ---
 To log out of the remote server, you can either run the command "exit" or just press CTRL + D. You can also open multiple terminals in VScode! This is the end of the turotial, thank you so much for your time!
 
