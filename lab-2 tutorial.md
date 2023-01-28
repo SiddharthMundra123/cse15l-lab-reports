@@ -54,15 +54,50 @@ In both of the screenshots, first, the handleRequest and main method is called. 
 
 ## Part 2
 * Failure inducing input for the buggy program: 
-
+``	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = {1,3,5,9};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{9,3,5,1}, input1);``
 
 * Input that does not induce failure:
+``	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = {1,5,5,1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1,5,5,1}, input1);
+	}'''
 * Symptom:
+
+![image](https://user-images.githubusercontent.com/116845419/215251733-a9840743-6397-4606-adf2-6805d483cde7.png)
+
 * The bug:
 
-Before:
+Code with the bug:
 
-After:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+  ```
 
+Code without the bug:
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      int x = arr[i];
+      arr[i] = newArray[arr.length - i - 1];
+      arr[arr.length-i-1] = x;
+    }
+    return arr;
+  }
+  ```
+  
+Describe HERE
+  
 ## Part 3
-I learned how to make my own web server and how to make a java application on it as well as JUnit testing. 
+I learned how to make my own web server and how to make a java application on it as well as JUnit testing. I also learned about GitHub desktop and did not know of this previously.
