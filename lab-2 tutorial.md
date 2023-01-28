@@ -54,19 +54,24 @@ In both of the screenshots, first, the handleRequest and main method is called. 
 
 ## Part 2
 * Failure inducing input for the buggy program: 
-``	@Test 
+```
+@Test 
 	public void testReverseInPlace() {
     int[] input1 = {1,3,5,9};
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{9,3,5,1}, input1);``
-
-* Input that does not induce failure:
-``	@Test 
+    assertArrayEquals(new int[]{9,3,5,1}, input1);
+```
+* An input does not induce a failure:
+```
+@Test 
 	public void testReverseInPlace() {
-    int[] input1 = {1,5,5,1};
+    int[] input1 = {1,3,5,9};
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{1,5,5,1}, input1);
-	}'''
+    assertArrayEquals(new int[]{9,3,5,1}, input1);
+```
+
+
+
 * Symptom:
 
 ![image](https://user-images.githubusercontent.com/116845419/215252092-b048cf2c-909e-49c7-a118-31c09ff5da47.png)
