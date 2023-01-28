@@ -69,7 +69,9 @@ In both of the screenshots, first, the handleRequest and main method is called. 
 	}'''
 * Symptom:
 
-![image](https://user-images.githubusercontent.com/116845419/215251733-a9840743-6397-4606-adf2-6805d483cde7.png)
+![image](https://user-images.githubusercontent.com/116845419/215252092-b048cf2c-909e-49c7-a118-31c09ff5da47.png)
+
+
 
 * The bug:
 
