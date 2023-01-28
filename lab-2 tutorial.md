@@ -45,8 +45,8 @@ class StringServer {
 
 ![message 2](https://user-images.githubusercontent.com/116845419/215248872-41565ec8-35e4-44b1-89b8-ce4d6a1fcd3f.png)
 
-In both of the screenshots, first, the handleRequest and main method is called. The relevant argument to this method is 
-The value of the variable "message" changes everytime there is a new message added or when the survey is run.
+In both of the screenshots, first, the handleRequest and main method is called. The argument to call the main method is 4001 and the argument to call handleRequest is the URL. The value of the variable "message" changes everytime there is a new message added or when the survey is run. The new message is added to the original empty String in line 14 above where path[1] is the new message we add and every time a new message is added, it moves to the next line as we have also added a "\n".
+
 * Screenshot of the error (incorrect URL):
 
 ![404 pt2](https://user-images.githubusercontent.com/116845419/215248883-564de987-d92d-4d11-94fe-5fe6e83d84b5.png)
