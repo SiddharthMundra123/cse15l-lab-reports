@@ -99,7 +99,7 @@ static int[] reversed(int[] arr) {
   }
   ```
   
-Describe HERE
+The problem with the original method was that it was not storing the middle values of the array. For example, if we put the array [1,5,8,3] in the method, the new array would be [3,5,8,1], which is however wrong! The solution to this is to create a temporary variable (here x) to store the value in the array. In the new method if we pass the array [1,5,8,3], after 4 iterations, the answer will be [3,8,5,1], which is the result we wanted!
   
 ## Part 3
 I learned how to make my own web server and how to make a java application on it as well as JUnit testing. I also learned about GitHub desktop and did not know of this previously.
