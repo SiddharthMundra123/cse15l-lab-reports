@@ -1,6 +1,7 @@
 # Lab Report 2
 ## Part 1
-In this part, I will be creating my on server StringServer as given in the lab task document. Below is the code for handling the URL in StringServer:
+In this part, I will be creating my on server StringServer as given in the lab task document. 
+* Below is the code for handling the URL in StringServer:
 ```
 class Handler implements URLHandler {
     String message = ""; 
@@ -38,6 +39,30 @@ class StringServer {
     }
 }
 ```
+* Screenshots of Adding Messages:
+
+![message 1](https://user-images.githubusercontent.com/116845419/215248867-5098a027-1246-4d5b-bc54-0548f3cca087.png)
+
+![message 2](https://user-images.githubusercontent.com/116845419/215248872-41565ec8-35e4-44b1-89b8-ce4d6a1fcd3f.png)
+
+In both of the screenshots, first, the handleRequest and main method is called. The relevant argument to this method is 
+The value of the variable "message" changes everytime there is a new message added or when the survey is run.
+* Screenshot of the error (incorrect URL):
+
+![404 pt2](https://user-images.githubusercontent.com/116845419/215248883-564de987-d92d-4d11-94fe-5fe6e83d84b5.png)
 
 
+## Part 2
+* Failure inducing input for the buggy program: 
 
+
+* Input that does not induce failure:
+* Symptom:
+* The bug:
+
+Before:
+
+After:
+
+## Part 3
+I learned how to make my own web server and how to make a java application on it as well as JUnit testing. 
