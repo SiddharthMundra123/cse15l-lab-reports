@@ -84,9 +84,32 @@ berlitz2/CanaryIslands-History.txt:3
 
 ## Command 3: -h
 **Example 1**
-
+```
+[cs15lwi23ace@ieng6-203]:berlitz1:370$ grep -Ho "place to" *       
+HandRJamaica.txt:place to
+HandRJamaica.txt:place to
+HandRJamaica.txt:place to
+HandRMadrid.txt:place to
+HistoryLasVegas.txt:place to
+HistoryLasVegas.txt:place to
+HistoryMalaysia.txt:place to
+IntroHongKong.txt:place to
+IntroIbiza.txt:place to
+IntroLosAngeles.txt:place to
+IntroMallorca.txt:place to
+IntroMallorca.txt:place to
+JungleMalaysia.txt:place to
+WhatToHongKong.txt:place to
+WhatToHongKong.txt:place to
+WhatToIbiza.txt:place to
+```
 
 **Example 2**
+```
+[cs15lwi23ace@ieng6-203]:berlitz1:372$ grep -Ho "travel here" *
+WhereToGreek.txt:travel here
+WhereToIndia.txt:travel here
+```
 
 ## Command 4: -x
 **Example 1**
