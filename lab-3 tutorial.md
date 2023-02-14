@@ -113,10 +113,17 @@ WhereToIndia.txt:travel here
 
 ## Command 4: -x
 **Example 1**
-
+```
+[cs15lwi23ace@ieng6-203]:non-fiction:400$ grep -lrx "The Nation as the Crucible 
+> of Equality" .
+./OUP/Fletcher/ch5.txt
+```
 
 **Example 2**
-
+```
+[cs15lwi23ace@ieng6-203]:non-fiction:402$ grep -lrx "From this point of view, the wonderful Arrow-Debreu theory is fundamentally flawed."
+OUP/Kauffman/ch9.txt
+```
 
 
 
