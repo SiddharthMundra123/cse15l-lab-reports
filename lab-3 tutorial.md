@@ -2,7 +2,7 @@
 In this lab report, we are required to research about a specific command. I chose to research about the grep command. The following are 4 interesting command-line options about the grep command - 
 * -i : this command is used to ignore capitalizaitions while searching for a match.
 * -c : this command prints a count of matching lines for each input file.
-* -h : this command is an indicaor to print the file name as well for each match.
+* -H : this command is an indicaor to print the file name as well for each match.
 * -x : this command selects only those matches that exactly match the whole line. It is to note that if this is used along with -x, -x has precedence.
 
 I found all of these on https://man7.org/linux/man-pages/man1/grep.1.html. Below are the examples of using these commands.
@@ -82,7 +82,7 @@ berlitz2/Canada-WhereToGo.txt:0
 berlitz2/CanaryIslands-History.txt:3
 ```
 
-## Command 3: -h
+## Command 3: -H
 **Example 1**
 ```
 [cs15lwi23ace@ieng6-203]:berlitz1:370$ grep -Ho "place to" *       
