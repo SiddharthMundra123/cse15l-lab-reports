@@ -62,7 +62,7 @@ berlitz2/Vallarta-WhatToDo.txt:0
 berlitz2/Vallarta-WhereToGo.txt:0
 ```
 
-This command returns the number of times the given String is used in all the documents. As seen in the output above, the number is specified after the directory of the file with a colon beofre the number.
+This command returns the number of times the given String "university" is used in all the documents. As seen in the output above, the number is specified after the directory of the file with a colon beofre the number.
 
 
 **Example 2**
@@ -85,6 +85,7 @@ berlitz2/Canada-History.txt:1
 berlitz2/Canada-WhereToGo.txt:0
 berlitz2/CanaryIslands-History.txt:3
 ```
+This command returns the number of times the given String :however" is used in all the documents.
 
 ## Command 3: -H
 **Example 1**
@@ -125,6 +126,7 @@ I searched berlitz1/ for the phrase "travel here". The grep command returned the
 > of Equality" .
 ./OUP/Fletcher/ch5.txt
 ```
+This command prints out the name of the file containing the whole sentence. As seen in the example above, ch5.txt in Fletcher contains the sentence given.
 
 **Example 2**
 ```
@@ -132,5 +134,6 @@ I searched berlitz1/ for the phrase "travel here". The grep command returned the
 OUP/Kauffman/ch9.txt
 ```
 
+This command prints out the name of the file containing the whole sentence. As seen in the example above, ch9.txt in Kauffman contains the sentence given.
 
 
