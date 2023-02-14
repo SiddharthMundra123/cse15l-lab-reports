@@ -12,6 +12,8 @@ I found all of these on https://man7.org/linux/man-pages/man1/grep.1.html. Below
 [cs15lwi23ace@ieng6-203]:written_2:318$ grep -ilr "lucayans"
 travel_guides/berlitz2/Bahamas-History.txt
 ```
+This grep command still the Bahamas-History.txt file even though Bahamas-History.txt contains the capitalized word "Lucayans".
+
 
 **Example 2**
 ```
@@ -35,6 +37,7 @@ travel_guides/berlitz2/Portugal-History.txt
 travel_guides/berlitz2/Portugal-WhatToDo.txt
 travel_guides/berlitz2/Portugal-WhereToGo.txt
 ```
+This grep command still gives the output even though none of these files contain the word "poRtUgAl" (the commands ignores capitalizaitions while searching)
 
 ## Command 2: -c (the actual result is very long and would take up too much space, hence I am only displaying some of the results.)
 **Example 1**
