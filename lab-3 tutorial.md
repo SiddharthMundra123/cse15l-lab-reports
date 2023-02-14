@@ -62,6 +62,7 @@ berlitz2/Vallarta-WhatToDo.txt:0
 berlitz2/Vallarta-WhereToGo.txt:0
 ```
 
+This command returns the number of times the given String is used in all the documents. As seen in the output above, the number is specified after the directory of the file with a colon beofre the number.
 
 
 **Example 2**
@@ -106,6 +107,8 @@ WhatToHongKong.txt:place to
 WhatToHongKong.txt:place to
 WhatToIbiza.txt:place to
 ```
+I searched berlitz1/ for the phrase "place to". The grep command returned the file names with the matching line. Using -o helps print the matched parts on a separate output line. It may give one result more than twice, but this is due to multiple occurences.
+
 
 **Example 2**
 ```
@@ -113,6 +116,7 @@ WhatToIbiza.txt:place to
 WhereToGreek.txt:travel here
 WhereToIndia.txt:travel here
 ```
+I searched berlitz1/ for the phrase "travel here". The grep command returned the file names with the matching line.
 
 ## Command 4: -x
 **Example 1**
