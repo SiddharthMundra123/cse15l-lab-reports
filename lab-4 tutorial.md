@@ -16,7 +16,8 @@ I cloned the given folder using ```git clone ```. while using the copy command f
 ## Step 3: 
 
 I typed l```cd lab7``` to change the directory to the lab7 file's directory. Then, I typed ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and pressed ```<enter>``` to compile JUnit testing file. Then, I ran the tests using ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore``` and pressed ```<enter>```. As seen below, the testers failed.
-![tests failing](https://user-images.githubusercontent.com/116845419/221762737-ed1ddf0b-8fda-42e5-a3b3-a78af6fac915.png)
+![tests failing](https://user-images.githubusercontent.com/116845419/221763139-f4548fc8-34e8-4ed3-bfec-753d5786a11c.png)
+
 
 
 ## Step 4:
@@ -28,3 +29,10 @@ Then, when i ran the program again to check if the applciation works correctly, 
 
 ![Worked after editing](https://user-images.githubusercontent.com/116845419/221762911-1651d276-faa4-4038-87b4-579339927124.png)
 
+## Step 6:
+
+To commit the file on github, I first typed ```git add ListExamples.java``` and then pressed ```<enter>```. After that, I typed ```git commit -m "fixed code"``` whihc commits the file with a message of "fixed code". 
+
+## Step 7:
+
+Lastly, to push the commit to GitHub, we have to type ```git push origin main``` and press ```<enter>``` which pushes the commit to the main branch of github.
