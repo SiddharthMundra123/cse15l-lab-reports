@@ -57,7 +57,7 @@ This find command still gives the output even though none of these files are nam
 [cs15lwi23ace@ieng6-202]:written_2:553$ 
 
 ```
-As seen above, it does not return anything.
+As seen above, just using "-name" does not return anything.
 
 ## Command 4: -mtime
 **Example 1**
