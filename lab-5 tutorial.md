@@ -22,7 +22,7 @@ This command finds the file in the directory we are in and returns the path of t
 ```
 As we can see above, it returns the path of the file we searched for.
 
-## Command 2: -empty
+## Command 2: -exec rm -i {} \;
 **Example 1**
 ```
 [cs15lwi23ace@ieng6-202]:skill-demo1-data:530$ find ./written_2 -name WhereToFrance.txt -exec rm -i {} \;
@@ -55,11 +55,18 @@ This find command still gives the output even though none of these files are nam
 ```
 [cs15lwi23ace@ieng6-202]:written_2:552$ find ./travel_guides -name ATHENS-INTRO.TXT
 [cs15lwi23ace@ieng6-202]:written_2:553$ 
-
 ```
 As seen above, just using "-name" does not return anything.
 
-## Command 4: -mtime
+## Command 4: -mtime (the actual result is very long and would take up too much space, hence I am only displaying some of the results.)
 **Example 1**
+```
+
+```
+
 
 **Example 2**
+
+```
+
+```
