@@ -8,6 +8,7 @@ For this lab report, I decided to return to lab report number 3 and explore a co
 I found all of these on https://www.tecmint.com/35-practical-examples-of-linux-find-command/. Below are the examples of using these commands
 
 ## Command 1: -name
+
 **Example 1**
 ```[cs15lwi23ace@ieng6-202]:~:510$ cd skill-demo1-data
 [cs15lwi23ace@ieng6-202]:skill-demo1-data:511$ find ./written_2 -name WhereToFrance.txt
