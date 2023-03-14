@@ -20,7 +20,7 @@ This command finds the file in the directory we are in and returns the path of t
 [cs15lwi23ace@ieng6-202]:skill-demo1-data:512$ find ./written_2 -name WhereToIndia.txt 
 ./written_2/travel_guides/berlitz1/WhereToIndia.txt
 ```
-As we can see above, it returns the path of the file we searched for.
+As we can see above, it returns the path of the file WhereToIndia .
 
 ## Command 2: -exec rm -i {} \;
 **Example 1**
@@ -36,7 +36,7 @@ This command is used to delete a file with confirmation. As seen above, once we 
 [cs15lwi23ace@ieng6-202]:skill-demo1-data:531$ find ./written_2 -name WhereToIndia.txt -exec rm -i {} \;
 rm: remove regular file './written_2/travel_guides/berlitz1/WhereToIndia.txt'? y
 ```
-As seen above, it delets a file with confirmation.
+As seen above, it asks for confirmation before deleting the file. Only if we confimr, then it delets the file.
 
 ## Command 3: -iname
 **Example 1**
@@ -56,9 +56,9 @@ This find command still gives the output even though none of these files are nam
 [cs15lwi23ace@ieng6-202]:written_2:552$ find ./travel_guides -name ATHENS-INTRO.TXT
 [cs15lwi23ace@ieng6-202]:written_2:553$ 
 ```
-As seen above, just using "-name" does not return anything.
+As seen above, just using "-name" does not return anything since it is case sensitive.
 
-## Command 4: -size (the actual result is very long and would take up too much space, hence I am only displaying some of the results.)
+## Command 4: -size 
 **Example 1**
 ```
 [cs15lwi23ace@ieng6-202]:written_2:504$ find . -size -5k
