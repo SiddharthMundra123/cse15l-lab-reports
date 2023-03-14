@@ -3,7 +3,7 @@ For this lab report, I decided to return to lab report number 3 and explore a co
 * -name : this command is used to find files with a specific name
 * -exec rm -i {} \; : this command is used to delete a file with confirmation
 * -iname : this command is used to find files using their name while ignoring case
-* -exec wc : this command prints the number of matching words in a file
+* -size : this command allows you to search for files based on their size
 
 I found all of these on https://www.tecmint.com/35-practical-examples-of-linux-find-command/. Below are the examples of using these commands
 
@@ -58,15 +58,34 @@ This find command still gives the output even though none of these files are nam
 ```
 As seen above, just using "-name" does not return anything.
 
-## Command 4: -mtime (the actual result is very long and would take up too much space, hence I am only displaying some of the results.)
+## Command 4: -size (the actual result is very long and would take up too much space, hence I am only displaying some of the results.)
 **Example 1**
 ```
-
+[cs15lwi23ace@ieng6-202]:written_2:504$ find . -size -5k
+./travel_guides/berlitz1/HandRHongKong.txt    
+./travel_guides/berlitz1/HandRIbiza.txt       
+./travel_guides/berlitz1/HandRIstanbul.txt    
+./travel_guides/berlitz1/HandRJerusalem.txt   
+./travel_guides/berlitz1/HandRLakeDistrict.txt
+./travel_guides/berlitz1/HandRLasVegas.txt    
+./travel_guides/berlitz1/HandRLisbon.txt      
+./travel_guides/berlitz1/HandRLosAngeles.txt  
+./travel_guides/berlitz1/HandRMadeira.txt     
+./travel_guides/berlitz1/HandRMallorca.txt    
+./travel_guides/berlitz1/WhatToFrance.txt     
+./travel_guides/berlitz1/WhatToHawaii.txt     
+./travel_guides/berlitz1/WhereToHawaii.txt    
 ```
-
+The find -size command allows you to search for files based on their size. The - in the above example means "smaller than". The size is then followed by a size unit, such as k for kilobytes, M for megabytes, c for bytes. The example above returns files less than 5 kilobytes.
 
 **Example 2**
 
 ```
-
+[cs15lwi23ace@ieng6-202]:written_2:505$ find . -size +200k
+./travel_guides/berlitz1/WhereToItaly.txt    
+./travel_guides/berlitz2/Canada-WhereToGo.txt
 ```
+
+The find -size command allows you to search for files based on their size. The + in the above example means "greater than". The size is then followed by a size unit, such as k for kilobytes, M for megabytes, c for bytes. The example above returns files greater than 200 kilobytes.
+
+
