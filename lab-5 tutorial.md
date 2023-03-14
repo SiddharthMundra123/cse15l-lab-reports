@@ -5,12 +5,13 @@ For this lab report, I decided to return to lab report number 3 and explore a co
 * -iname : this command is used to find files using their name while ignoring case
 * -size : this command allows you to print files based on their size
 
-I found all of these on https://www.tecmint.com/35-practical-examples-of-linux-find-command/. Below are the examples of using these commands
+I found all of these on https://www.tecmint.com/35-practical-examples-of-linux-find-command. Below are the examples of using these commands
 
 ## Command 1: -name
 
 **Example 1**
-```[cs15lwi23ace@ieng6-202]:~:510$ cd skill-demo1-data
+```
+[cs15lwi23ace@ieng6-202]:~:510$ cd skill-demo1-data
 [cs15lwi23ace@ieng6-202]:skill-demo1-data:511$ find ./written_2 -name WhereToFrance.txt
 ./written_2/travel_guides/berlitz1/WhereToFrance.txt
 ```
